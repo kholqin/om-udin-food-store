@@ -30,7 +30,7 @@ Section legalitas sengaja menampilkan area status BPOM dan halal sebagai **place
 
 ## GitHub Pages
 
-Workflow `.github/workflows/deploy-pages.yml` membangun folder `dist/public` dan menerbitkannya ke GitHub Pages pada setiap push ke branch `main`. GitHub Pages bersifat hosting statis; route backend tRPC dan checkout Shopify paling lengkap berjalan pada deployment project utama. Jika checkout interaktif diperlukan di domain Pages, gunakan endpoint backend publik yang aman atau arahkan pelanggan ke deployment utama.
+Workflow `.github/workflows/deploy-pages.yml` membangun folder `dist/public` dan menerbitkannya ke GitHub Pages pada setiap push ke branch `main`. URL website yang benar adalah `https://kholqin.github.io/om-udin-food-store/`; URL repository `https://github.com/kholqin/om-udin-food-store` bukan URL untuk membuka website. GitHub Pages bersifat hosting statis; route backend tRPC dan checkout Shopify paling lengkap berjalan pada deployment project utama. Jika checkout interaktif diperlukan di domain Pages, gunakan endpoint backend publik yang aman atau arahkan pelanggan ke deployment utama.
 
 ## Verifikasi CTA WhatsApp
 

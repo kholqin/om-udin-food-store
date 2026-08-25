@@ -49,6 +49,12 @@ describe("OM UDIN storefront content", () => {
     expect(homeSource).toContain("Pesan ${product.title} via WhatsApp");
   });
 
+  it("keeps the GitHub Pages 404 fallback pointed at the storefront root", () => {
+    const fallback404 = readFileSync(resolve(process.cwd(), "client/public/404.html"), "utf8");
+    expect(fallback404).toContain("/om-udin-food-store/");
+    expect(fallback404).toContain("window.location.replace");
+  });
+
   it("does not represent BPOM or halal as verified certification", () => {
     const legalCopy = "placeholder verifikasi sampai nomor atau dokumen resmi diberikan";
     expect(legalCopy).toContain("placeholder verifikasi");

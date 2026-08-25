@@ -93,3 +93,14 @@
 ## WhatsApp Card Documentation
 
 - [x] Dokumentasikan tombol WhatsApp per kartu menu dan verifikasi mobile di README
+
+## GitHub Pages 404 Fix
+
+- [ ] Diagnosis penyebab 404 pada URL GitHub Pages
+- [ ] Perbaiki base path, fallback, atau workflow yang menyebabkan 404
+- [ ] Uji URL root dan build deployment setelah perbaikan
+
+## GitHub Pages Fallback Hardening
+
+- [ ] Tambahkan fallback 404 yang mengarahkan pengunjung ke halaman utama Pages
+- [ ] Dokumentasikan URL Pages yang benar agar tidak tertukar dengan URL repository
