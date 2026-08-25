@@ -32,6 +32,10 @@ Section legalitas sengaja menampilkan area status BPOM dan halal sebagai **place
 
 Workflow `.github/workflows/deploy-pages.yml` membangun folder `dist/public` dan menerbitkannya ke GitHub Pages pada setiap push ke branch `main`. GitHub Pages bersifat hosting statis; route backend tRPC dan checkout Shopify paling lengkap berjalan pada deployment project utama. Jika checkout interaktif diperlukan di domain Pages, gunakan endpoint backend publik yang aman atau arahkan pelanggan ke deployment utama.
 
+## Verifikasi CTA WhatsApp
+
+CTA hero **“Pesan Sekarang”** menggunakan anchor `href={WHATSAPP_URL}` di `client/src/pages/Home.tsx`. Nilai `WHATSAPP_URL` berasal dari `client/src/lib/contactConfig.ts` dan diarahkan ke `https://wa.me/6282282588191` dengan pesan awal ter-encode. Assertion terkait tersedia di `server/om-udin-content.test.ts`. Tampilan CTA sudah diperiksa pada breakpoint desktop 1280×720 dan mobile 390×844; tombol tetap terbaca dan mudah dijangkau.
+
 ## Lisensi
 
 MIT License. Logo dan aset brand OM UDIN tetap menjadi milik pemilik usaha.

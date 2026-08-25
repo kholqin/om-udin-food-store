@@ -57,3 +57,24 @@
 
 - [x] Hubungkan foto referensi baru ke kartu menu berdasarkan kategori produk
 - [x] Verifikasi kartu menu desktop dan mobile memakai foto baru dengan proporsi yang benar
+
+## WhatsApp CTA
+
+- [x] Hubungkan tombol “Pesan Sekarang” ke WhatsApp +62 822-8258-8191
+- [x] Tambahkan pesan awal pemesanan yang terisi otomatis
+- [x] Uji format nomor dan link WhatsApp di build storefront
+
+## WhatsApp Verification Follow-up
+
+- [x] Memisahkan URL WhatsApp ke konfigurasi yang dapat diuji
+- [x] Menambahkan assertion nomor dan pesan awal WhatsApp ter-encode
+- [x] Memverifikasi CTA WhatsApp pada storefront desktop dan mobile
+
+## WhatsApp CTA Code Evidence
+
+- [x] Tambahkan assertion kode untuk anchor CTA “Pesan Sekarang” dan href WhatsApp terkonfigurasi
+- [x] Dokumentasikan evidence CTA UI desktop/mobile melalui test source dan screenshot
+
+## WhatsApp Verification Documentation
+
+- [x] Dokumentasikan selector href CTA WhatsApp dan bukti verifikasi desktop/mobile di README
