@@ -30,3 +30,11 @@
 - [x] Seed maksimal 1–2 produk Shopify untuk preview awal sesuai aturan integrasi
 - [x] Verifikasi katalog Shopify melalui probe sebelum UI storefront
 - [x] Implementasikan keranjang Shopify menggunakan useCart dan checkoutUrl dari scaffold
+
+## Storefront Upgrade
+
+- [ ] Ubah header menjadi navigasi storefront dengan pencarian dan kategori
+- [ ] Tambahkan filter kategori dan state kosong katalog
+- [ ] Tingkatkan kartu produk dengan label kategori, harga, dan CTA storefront
+- [ ] Tambahkan bottom navigation mobile dan kontrol keranjang yang lebih jelas
+- [ ] Pastikan GitHub Pages build terpicu setelah perubahan dan cek URL deployment
