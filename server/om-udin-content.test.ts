@@ -49,6 +49,12 @@ describe("OM UDIN storefront content", () => {
     expect(homeSource).toContain("Pesan ${product.title} via WhatsApp");
   });
 
+  it("registers Home routes for the GitHub Pages basename", () => {
+    const appSource = readFileSync(resolve(process.cwd(), "client/src/App.tsx"), "utf8");
+    expect(appSource).toContain("<Route path={\"/om-udin-food-store\"} component={Home} />");
+    expect(appSource).toContain("<Route path={\"/om-udin-food-store/\"} component={Home} />");
+  });
+
   it("keeps the GitHub Pages 404 fallback pointed at the storefront root", () => {
     const fallback404 = readFileSync(resolve(process.cwd(), "client/public/404.html"), "utf8");
     expect(fallback404).toContain("/om-udin-food-store/");

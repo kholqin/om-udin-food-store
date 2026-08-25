@@ -98,9 +98,21 @@
 
 - [ ] Diagnosis penyebab 404 pada URL GitHub Pages
 - [ ] Perbaiki base path, fallback, atau workflow yang menyebabkan 404
-- [ ] Uji URL root dan build deployment setelah perbaikan
+- [x] Uji URL root dan build deployment setelah perbaikan
 
 ## GitHub Pages Fallback Hardening
 
-- [ ] Tambahkan fallback 404 yang mengarahkan pengunjung ke halaman utama Pages
-- [ ] Dokumentasikan URL Pages yang benar agar tidak tertukar dengan URL repository
+- [x] Tambahkan fallback 404 yang mengarahkan pengunjung ke halaman utama Pages
+- [x] Dokumentasikan URL Pages yang benar agar tidak tertukar dengan URL repository
+
+## GitHub Pages Basename Route
+
+- [ ] Tambahkan route storefront untuk basename `/om-udin-food-store/`
+- [ ] Uji rendering React pada URL root GitHub Pages, bukan hanya status HTTP
+
+## 404 and Music Follow-up
+
+- [x] Pastikan route basename `/om-udin-food-store/` merender Home pada GitHub Pages
+- [ ] Tambahkan pemutar audio yang dimulai setelah interaksi pengguna dan memiliki kontrol pause
+- [ ] Gunakan audio original/royalty-free atau file berlisensi yang disediakan pemilik
+- [ ] Dokumentasikan bahwa autoplay bersuara dan musik yang tidak bisa dihentikan tidak dapat dijamin browser
