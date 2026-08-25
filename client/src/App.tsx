@@ -15,8 +15,8 @@ function Router() {
       <Route path={"/om-udin-food-store/"} component={Home} />
       <Route path={"/"} component={Home} />
       <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
+      {/* GitHub Pages serves this one-page storefront under a repository basename. */}
+      <Route component={Home} />
     </Switch>
   );
 }

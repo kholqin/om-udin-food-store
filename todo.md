@@ -116,3 +116,8 @@
 - [ ] Tambahkan pemutar audio yang dimulai setelah interaksi pengguna dan memiliki kontrol pause
 - [ ] Gunakan audio original/royalty-free atau file berlisensi yang disediakan pemilik
 - [ ] Dokumentasikan bahwa autoplay bersuara dan musik yang tidak bisa dihentikan tidak dapat dijamin browser
+
+## Pages Universal Route Fallback
+
+- [ ] Jadikan route fallback aplikasi merender Home untuk storefront satu halaman
+- [ ] Deploy ulang dan verifikasi root Pages pada browser tanpa query

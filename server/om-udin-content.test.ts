@@ -53,6 +53,7 @@ describe("OM UDIN storefront content", () => {
     const appSource = readFileSync(resolve(process.cwd(), "client/src/App.tsx"), "utf8");
     expect(appSource).toContain("<Route path={\"/om-udin-food-store\"} component={Home} />");
     expect(appSource).toContain("<Route path={\"/om-udin-food-store/\"} component={Home} />");
+    expect(appSource).toContain("<Route component={Home} />");
   });
 
   it("keeps the GitHub Pages 404 fallback pointed at the storefront root", () => {
