@@ -44,3 +44,16 @@
 - [x] Tampilkan chip kategori langsung di header storefront
 - [x] Tampilkan label productType eksplisit pada kartu produk
 - [x] Verifikasi status deployment GitHub Pages dan dokumentasikan URL atau langkah aktivasi pemilik — workflow build/deploy sukses pada run terakhir; https://kholqin.github.io/om-udin-food-store/ merespons HTTP 200 — https://kholqin.github.io/om-udin-food-store/ merespons HTTP 200
+
+## Product Gallery Assets
+
+- [x] Salin gambar referensi sempol dan Pop Ice ke folder aset web eksternal
+- [x] Unggah gambar terpilih ke storage web dan catat URL stabilnya
+- [x] Tambahkan galeri responsif dengan lightbox atau preview klik
+- [x] Tambahkan gambar produk ke kartu menu dan visual section storefront
+- [x] Uji loading aset, responsivitas, dan build setelah galeri ditambahkan
+
+## Gallery-to-Menu Follow-up
+
+- [ ] Hubungkan foto referensi baru ke kartu menu berdasarkan kategori produk
+- [ ] Verifikasi kartu menu desktop dan mobile memakai foto baru dengan proporsi yang benar
