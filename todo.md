@@ -33,8 +33,14 @@
 
 ## Storefront Upgrade
 
-- [ ] Ubah header menjadi navigasi storefront dengan pencarian dan kategori
-- [ ] Tambahkan filter kategori dan state kosong katalog
-- [ ] Tingkatkan kartu produk dengan label kategori, harga, dan CTA storefront
-- [ ] Tambahkan bottom navigation mobile dan kontrol keranjang yang lebih jelas
-- [ ] Pastikan GitHub Pages build terpicu setelah perubahan dan cek URL deployment
+- [x] Ubah header menjadi navigasi storefront dengan pencarian dan kategori
+- [x] Tambahkan filter kategori dan state kosong katalog
+- [x] Tingkatkan kartu produk dengan label kategori, harga, dan CTA storefront
+- [x] Tambahkan bottom navigation mobile dan kontrol keranjang yang lebih jelas
+- [x] Pastikan GitHub Pages build terpicu setelah perubahan dan cek URL deployment — workflow tersedia; aktivasi sumber Pages tetap manual bila belum aktif
+
+## Follow-up Gap Fixes
+
+- [ ] Tampilkan chip kategori langsung di header storefront
+- [ ] Tampilkan label productType eksplisit pada kartu produk
+- [ ] Verifikasi status deployment GitHub Pages dan dokumentasikan URL atau langkah aktivasi pemilik
