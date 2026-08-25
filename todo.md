@@ -43,4 +43,4 @@
 
 - [x] Tampilkan chip kategori langsung di header storefront
 - [x] Tampilkan label productType eksplisit pada kartu produk
-- [x] Verifikasi status deployment GitHub Pages dan dokumentasikan URL atau langkah aktivasi pemilik — https://kholqin.github.io/om-udin-food-store/ merespons HTTP 200
+- [x] Verifikasi status deployment GitHub Pages dan dokumentasikan URL atau langkah aktivasi pemilik — workflow build/deploy sukses pada run terakhir; https://kholqin.github.io/om-udin-food-store/ merespons HTTP 200 — https://kholqin.github.io/om-udin-food-store/ merespons HTTP 200
