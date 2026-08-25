@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { galleryImages } from "../client/src/lib/galleryConfig";
-import { WHATSAPP_MESSAGE, WHATSAPP_NUMBER, WHATSAPP_URL } from "../client/src/lib/contactConfig";
+import { WHATSAPP_MESSAGE, WHATSAPP_NUMBER, WHATSAPP_URL, getProductWhatsAppUrl } from "../client/src/lib/contactConfig";
 
 describe("OM UDIN storefront content", () => {
   it("keeps the configured preview prices in Indonesian rupiah", () => {
@@ -30,10 +30,23 @@ describe("OM UDIN storefront content", () => {
     expect(WHATSAPP_URL).toContain(`text=${encodeURIComponent(WHATSAPP_MESSAGE)}`);
   });
 
+  it("creates an item-specific WhatsApp URL for menu cards", () => {
+    const url = getProductWhatsAppUrl("Sempol Goreng OM UDIN");
+    expect(url).toContain("https://wa.me/6282282588191");
+    expect(url).toContain(encodeURIComponent("Sempol Goreng OM UDIN"));
+    expect(url).toContain(encodeURIComponent("Mohon info ketersediaannya ya."));
+  });
+
   it("wires the hero order CTA to the WhatsApp URL in the UI source", () => {
     const homeSource = readFileSync(resolve(process.cwd(), "client/src/pages/Home.tsx"), "utf8");
     expect(homeSource).toContain("href={WHATSAPP_URL}");
     expect(homeSource).toContain(">Pesan Sekarang <ArrowRight");
+  });
+
+  it("renders a WhatsApp CTA for each product card", () => {
+    const homeSource = readFileSync(resolve(process.cwd(), "client/src/pages/Home.tsx"), "utf8");
+    expect(homeSource).toContain("href={getProductWhatsAppUrl(product.title)}");
+    expect(homeSource).toContain("Pesan ${product.title} via WhatsApp");
   });
 
   it("does not represent BPOM or halal as verified certification", () => {

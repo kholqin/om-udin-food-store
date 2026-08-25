@@ -78,3 +78,18 @@
 ## WhatsApp Verification Documentation
 
 - [x] Dokumentasikan selector href CTA WhatsApp dan bukti verifikasi desktop/mobile di README
+
+## WhatsApp Per-Product CTA
+
+- [x] Buat helper URL WhatsApp dengan nama item spesifik
+- [x] Tambahkan tombol WhatsApp pada setiap kartu menu
+- [x] Uji encoding nama item dan tampilan tombol pada storefront
+
+## WhatsApp Card Evidence
+
+- [x] Tambahkan assertion source untuk anchor WhatsApp pada setiap ProductCard
+- [x] Verifikasi tombol WhatsApp per kartu pada storefront mobile dan dokumentasikan hasilnya
+
+## WhatsApp Card Documentation
+
+- [x] Dokumentasikan tombol WhatsApp per kartu menu dan verifikasi mobile di README

@@ -36,6 +36,10 @@ Workflow `.github/workflows/deploy-pages.yml` membangun folder `dist/public` dan
 
 CTA hero **“Pesan Sekarang”** menggunakan anchor `href={WHATSAPP_URL}` di `client/src/pages/Home.tsx`. Nilai `WHATSAPP_URL` berasal dari `client/src/lib/contactConfig.ts` dan diarahkan ke `https://wa.me/6282282588191` dengan pesan awal ter-encode. Assertion terkait tersedia di `server/om-udin-content.test.ts`. Tampilan CTA sudah diperiksa pada breakpoint desktop 1280×720 dan mobile 390×844; tombol tetap terbaca dan mudah dijangkau.
 
+## Verifikasi WhatsApp per Menu
+
+Setiap `ProductCard` merender anchor `href={getProductWhatsAppUrl(product.title)}` dengan label aksesibel `Pesan {product.title} via WhatsApp`. Helper tersebut mengarah ke nomor `6282282588191` dan mengisi nama menu pada pesan yang ter-encode. Assertion implementasinya tersedia di `server/om-udin-content.test.ts`. Tombol per kartu sudah diperiksa pada breakpoint mobile 390×844; tombol tetap terlihat, dapat ditekan, dan tidak menutupi harga maupun tombol `Tambah`.
+
 ## Lisensi
 
 MIT License. Logo dan aset brand OM UDIN tetap menjadi milik pemilik usaha.
