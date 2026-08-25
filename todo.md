@@ -41,6 +41,6 @@
 
 ## Follow-up Gap Fixes
 
-- [ ] Tampilkan chip kategori langsung di header storefront
-- [ ] Tampilkan label productType eksplisit pada kartu produk
-- [ ] Verifikasi status deployment GitHub Pages dan dokumentasikan URL atau langkah aktivasi pemilik
+- [x] Tampilkan chip kategori langsung di header storefront
+- [x] Tampilkan label productType eksplisit pada kartu produk
+- [x] Verifikasi status deployment GitHub Pages dan dokumentasikan URL atau langkah aktivasi pemilik — https://kholqin.github.io/om-udin-food-store/ merespons HTTP 200
