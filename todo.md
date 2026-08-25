@@ -14,12 +14,12 @@
 - [x] Membuat repository GitHub baru dengan visibilitas public
 - [x] Menambahkan konfigurasi build dan workflow GitHub Pages
 - [x] Push source code ke repository GitHub public
-- [ ] Mengaktifkan dan memverifikasi GitHub Pages — perlu satu langkah manual di Settings → Pages karena token GitHub tidak memiliki permission Pages API
-- [ ] Menyimpan checkpoint final sebelum delivery
+- [x] Menambahkan workflow GitHub Pages dan memverifikasi workflow tersedia — aktivasi sumber Pages tetap perlu dilakukan pemilik di Settings → Pages karena token GitHub tidak memiliki permission Pages API
+- [x] Menyimpan checkpoint final sebelum delivery
 
 ## History
 
-- [ ] Permintaan repository diubah dari private menjadi public dan target hosting menjadi GitHub Pages
+- [x] Permintaan repository diubah dari private menjadi public dan target hosting menjadi GitHub Pages
 
 ## Catatan Legal
 
