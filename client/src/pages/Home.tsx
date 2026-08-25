@@ -7,8 +7,8 @@ import { useCart } from "@/contexts/CartContext";
 import type { Product } from "@shared/commerce/types";
 import { storeConfig } from "@/lib/storeConfig";
 
-const LOGO = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663888833023/DYhdCjfITdlEonRr.png";
-const BANNER = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663888833023/IwgJiybwFeiPxZRC.png";
+const LOGO = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663888833023/QlGKxLmOLWXdnYWT.webp";
+const BANNER = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663888833023/QpIZnxbZTytNOTXD.webp";
 const formatIDR = (amount: string) => new Intl.NumberFormat("id-ID", { style: "currency", currency: "IDR", maximumFractionDigits: 0 }).format(Number(amount));
 
 const fallbackProducts: Product[] = [
