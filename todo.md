@@ -96,8 +96,8 @@
 
 ## GitHub Pages 404 Fix
 
-- [ ] Diagnosis penyebab 404 pada URL GitHub Pages
-- [ ] Perbaiki base path, fallback, atau workflow yang menyebabkan 404
+- [x] Diagnosis penyebab 404 pada URL GitHub Pages — React hanya memiliki route `/`, sementara Pages berjalan pada basename `/om-udin-food-store/`; cache browser juga menyimpan bundle lama
+- [x] Perbaiki base path, fallback, atau workflow yang menyebabkan 404 — menambahkan route basename, fallback 404, dan cache-busting
 - [x] Uji URL root dan build deployment setelah perbaikan
 
 ## GitHub Pages Fallback Hardening
@@ -107,8 +107,8 @@
 
 ## GitHub Pages Basename Route
 
-- [ ] Tambahkan route storefront untuk basename `/om-udin-food-store/`
-- [ ] Uji rendering React pada URL root GitHub Pages, bukan hanya status HTTP
+- [x] Tambahkan route storefront untuk basename `/om-udin-food-store/`
+- [x] Uji rendering React pada URL root GitHub Pages, bukan hanya status HTTP — browser dengan cache-busting menampilkan Home OM UDIN
 
 ## 404 and Music Follow-up
 
