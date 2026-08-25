@@ -55,5 +55,5 @@
 
 ## Gallery-to-Menu Follow-up
 
-- [ ] Hubungkan foto referensi baru ke kartu menu berdasarkan kategori produk
-- [ ] Verifikasi kartu menu desktop dan mobile memakai foto baru dengan proporsi yang benar
+- [x] Hubungkan foto referensi baru ke kartu menu berdasarkan kategori produk
+- [x] Verifikasi kartu menu desktop dan mobile memakai foto baru dengan proporsi yang benar
