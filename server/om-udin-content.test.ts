@@ -49,6 +49,14 @@ describe("OM UDIN storefront content", () => {
     expect(homeSource).toContain("Pesan ${product.title} via WhatsApp");
   });
 
+  it("includes the controlled original music player", () => {
+    const homeSource = readFileSync(resolve(process.cwd(), "client/src/pages/Home.tsx"), "utf8");
+    expect(homeSource).toContain("RHuQFzjeUWXOjWqH.mp3");
+    expect(homeSource).toContain("audio.play()");
+    expect(homeSource).toContain("audio.pause()");
+    expect(homeSource).toContain("aria-label=\"Volume musik\"");
+  });
+
   it("registers Home routes for the GitHub Pages basename", () => {
     const appSource = readFileSync(resolve(process.cwd(), "client/src/App.tsx"), "utf8");
     expect(appSource).toContain("<Route path={\"/om-udin-food-store\"} component={Home} />");

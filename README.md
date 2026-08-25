@@ -43,3 +43,7 @@ Setiap `ProductCard` merender anchor `href={getProductWhatsAppUrl(product.title)
 ## Lisensi
 
 MIT License. Logo dan aset brand OM UDIN tetap menjadi milik pemilik usaha.
+
+## Musik Latar
+
+Website menggunakan musik original/royalty-free OM UDIN yang diputar setelah pengunjung menekan tombol Play. Pemutar menyediakan pause, mute, dan volume. Autoplay bersuara sebelum interaksi serta pemutaran yang tidak bisa dihentikan tidak dipaksakan karena dapat diblokir browser dan tidak ramah aksesibilitas.

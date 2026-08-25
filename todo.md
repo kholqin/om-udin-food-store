@@ -121,3 +121,11 @@
 
 - [ ] Jadikan route fallback aplikasi merender Home untuk storefront satu halaman
 - [ ] Deploy ulang dan verifikasi root Pages pada browser tanpa query
+
+## Original Music Player
+
+- [ ] Membuat musik original/royalty-free bernuansa ceria dan lucu
+- [ ] Mengunggah audio ke storage web dan menghubungkannya ke landing page
+- [ ] Menambahkan tombol mulai, pause, mute, dan volume yang aksesibel
+- [ ] Menjaga audio tidak autoplay bersuara sebelum interaksi pengguna
+- [ ] Menguji player pada desktop/mobile dan deployment GitHub Pages
